@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <!-- Link para o arquivo CSS que contém os estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho do portfólio -->
+    <header>
+        <h1>Meu Portfólio</h1>
+    </header>
+
+    <!-- Menu de navegação com links para as seções -->
+    <nav>
+        <ul>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#educacao">Formação Educacional</a></li>
+            <li><a href="#redes">LinkedIn e GitHub</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção para hobbies -->
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <p>Tenho uma paixão por tecnologia e programação. No meu tempo livre, gosto de explorar novas linguagens de programação e desenvolver pequenos projetos. Além disso, acompanho as tendências em tecnologia e inovação, mantendo-me atualizado com as últimas novidades do setor.</p>
+    </section>
+
+    <!-- Seção para formação educacional -->
+    <section id="educacao">
+        <h2>Formação Educacional</h2>
+        <p>Tenho investido continuamente na minha formação através de cursos online em plataformas como Uninter e Udemy. Completei cursos em [área específica, como técnico de informática, que complementam minha formação acadêmica e ampliam meu leque de competências. Acredito na importância da educação contínua para acompanhar as rápidas mudanças do mercado.
+
+            Sou capaz de me comunicar efetivamente em inglês em situações do dia a dia e tenho uma compreensão sólida da gramática e vocabulário.</p>
+    </section>
+
+    <!-- Seção para links de LinkedIn e GitHub -->
+    <section id="redes">
+        <h2>LinkedIn e GitHub</h2>
+        <p>
+            <!-- Links para seus perfis LinkedIn e GitHub -->
+            <a href="https://www.linkedin.com/in/maria-clara-monteiro-gonzaga" target="_blank">Meu LinkedIn</a><br>
+            <a href=" https://github.com/mariaamonteiro2 " target="_blank">Meu GitHub</a>
+        </p>
+    </section>
+
+    <!-- Seção para o formulário de contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <!-- Formulário de contato com validação em JavaScript -->
+        <form id="contactForm" onsubmit="return validateForm()">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé do portfólio -->
+    <footer>
+        <p>&copy; 2024 Meu Portfólio</p>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript que contém a validação do formulário -->
+    <script src="script.js"></script>
+</body>
+</html>
